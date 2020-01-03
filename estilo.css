@@ -1,7 +1,10 @@
-*{
+html,
+body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 
 
 
@@ -14,6 +17,11 @@ h1{
 h2{
     font: bold 22px sans-serif;
 }
+
+header {
+    top:0;
+}
+
 header,section,footer,aside,nav,article,hgroup{
     
     display: block;
@@ -24,6 +32,8 @@ body{
 }
 .agrupar{
     margin: 15px auto;
+    margin-top: 0;
+    margin-bottom: 0;
     background: rgb(162, 253, 144);
     
     
@@ -53,11 +63,10 @@ body{
 }
 .seccion{
    
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 0 auto;
     width: 60%;
-    float: right;
+    display: inline-flex;
+    flex-wrap:wrap;
 }
 article{
     background: #fffbcc;
@@ -81,7 +90,7 @@ article footer{
 }
 
 .columna img{
-    display: block;
+    display: flex;
     width: 300px;
     height: 300px;
     margin-left: 50%;
@@ -102,4 +111,22 @@ article footer{
     height: 300px;
     display: block;
     margin: auto;
+}
+
+
+.wey {
+    width: 100%;
+    height: auto;
+}
+
+.no {
+    position: relative;
+}
+
+.columnaa img{
+    width: 150px;
+    margin-top: -10px;
+    margin-bottom: -100px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
